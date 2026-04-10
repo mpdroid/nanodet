@@ -13,6 +13,9 @@
 #
 # PYTHON=python3.10 ./scripts/setup_venvs.sh --linux-yenv nanodet
 
+# --- Build / runtime bootstrap ---
+setuptools>=65.0          # provides pkg_resources (missing from bare venvs in Python 3.12+)
+
 # --- NanoDet-specific ---
 Cython==0.29.33
 imagesize==1.4.1
