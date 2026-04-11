@@ -6,6 +6,7 @@ omegaconf>=2.0.1
 onnx
 onnx-simplifier
 opencv-python
+Pillow>=10.0
 pyaml
 pycocotools
 pytorch-lightning>=1.9.0,<2.0.0
