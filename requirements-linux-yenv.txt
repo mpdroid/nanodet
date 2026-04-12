@@ -28,9 +28,10 @@ termcolor==2.2.0
 torchmetrics==0.11.4          # <0.12 required by pytorch-lightning 1.9.x
 
 # --- Export ---
+# ORT 1.18.1 (PyPI) targets CUDA 11.8; default onnxruntime-gpu >=1.19 expects CUDA 12.x.
 onnx==1.12.0
 onnx-simplifier==0.4.8        # 0.4.1 has no pre-built wheel — git describe fails outside a repo
-onnxruntime-gpu==1.12.0
+onnxruntime-gpu==1.18.1
 
 # --- Mirrors gyolo/requirements-yenv.txt (no torch/torchvision — installed above) ---
 matplotlib==3.6.2
