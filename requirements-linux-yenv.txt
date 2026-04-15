@@ -1,7 +1,7 @@
 Cython
 imagesize
 matplotlib
-numpy
+numpy>=1.23,<2
 omegaconf>=2.0.1
 onnx
 onnx-simplifier
@@ -10,6 +10,7 @@ Pillow>=10.0
 pyaml
 pycocotools
 pytorch-lightning>=1.9.0,<2.0.0
+setuptools>=65,<81
 tabulate
 tensorboard
 termcolor
